@@ -27,8 +27,8 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
           push: true
           tags: |
-            edygc1988/ejercicio2:1
+            edygc1988/ejercicio2:2
             edygc1988/ejercicio2:latest
